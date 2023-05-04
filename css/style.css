@@ -1201,9 +1201,35 @@ p{
   }
 /* End Keyframes */
 
+/* Media Query for Phone */
+
+@media screen and (min-width: 370px) and (max-width: 767px){
+    #services .service-top {
+        width: 350px;
+    }
+
+    #projects .all-projects {
+        width: 500px;
+    }
+
+    #projects .section-title {
+        width: 350px;
+    }
+
+    #skills .all-skills {
+        padding: 0 80px;
+    }
+
+    #footer .brand h1{
+        margin-left: 20%;
+    }
+}
+
+/* End Media Query for Phone */
+
 /* Media Query for Tablet */
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 800px){
     .cta{
         font-size: 2.5rem;
         padding: 20px 60px;
