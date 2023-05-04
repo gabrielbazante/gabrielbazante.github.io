@@ -862,6 +862,29 @@ p{
     background-color: crimson;
 }
 
+#projects .cta{
+    color: black;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    margin: 20;
+}
+
+#projects .icon-github-name{
+    width: 90px;
+    filter: invert(1);
+}
+
+#projects .cta:hover {
+    background-color: crimson;
+    color: white;
+    transition: .3s ease;
+  }
+  
+  #projects .cta:hover img{
+    filter: invert(0);
+    transition: .3s ease;
+  }
 /* End Projects Section */
 
 /* Start Skills Section */
