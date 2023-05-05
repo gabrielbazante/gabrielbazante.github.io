@@ -251,7 +251,6 @@ p{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
     opacity: .2;
     z-index: -1;
 }
@@ -1227,6 +1226,14 @@ p{
 /* Media Query for Phone */
 
 @media screen and (min-width: 370px) and (max-width: 767px){
+    #hero {
+        background-image: url(../img/others/bgPrincipal_Phone.png);
+    }
+
+    #hero .block-presentation{
+        margin-top: 60px;
+    }
+
     #services .service-top {
         width: 350px;
     }
